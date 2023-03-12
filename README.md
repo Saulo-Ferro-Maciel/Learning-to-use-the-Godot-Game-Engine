@@ -3,4 +3,6 @@ I'm learning to use the Godot Game Engine, through the book ***"Godot Engine Gam
 >
 >Because the principle of this project would be to learn from the oldest versions to the most current (Godot 4.0).
 >
->And I chose this book because it was written by Godot's developer tie.
+>And I chose this book because it was written by Godot's developer tie.  
+
+[You can download the book here.](https://www.amazon.com.br/Godot-Engine-Development-Hours-Yourself-ebook/dp/B07BFDQFL9)

@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://1i0twg0xk2sd"]
+
+[ext_resource type="Texture2D" uid="uid://dtvns7rqt4182" path="res://icon.svg" id="1_gsi5c"]
+[ext_resource type="Script" path="res://my_first_scene.gd" id="1_p6l4j"]
+
+[node name="MyFirstScene" type="Node2D"]
+script = ExtResource("1_p6l4j")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 489.0
+offset_top = 469.0
+offset_right = 566.0
+offset_bottom = 500.0
+keep_pressed_outside = true
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(524, 383)
+texture = ExtResource("1_gsi5c")
+
+[node name="Text" type="RichTextLabel" parent="."]
+offset_left = 417.0
+offset_top = 199.0
+offset_right = 799.0
+offset_bottom = 313.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 176.0
+offset_top = 83.0
+offset_right = 626.0
+offset_bottom = 167.0
+text = "Godot Engine Game Development in 24 Hours. The Official Guide to Godot 3.0 ( PDFDrive )"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+offset_left = 101.0
+offset_top = 25.0
+offset_right = 410.0
+offset_bottom = 65.0
+text = "Exercise/Exercício :"
